@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Purplle Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP STRIP -->
+<div class="top-strip">
+  <p>Free Shipping on orders above ₹499 | 50% OFF Sale</p>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">purplle</div>
+
+  <input class="search" placeholder="Search for products, brands & more">
+
+  <div class="nav-links">
+    <span>Offers</span>
+    <span>New</span>
+    <span>Brands</span>
+    <span>Login</span>
+    <span>🛒</span>
+  </div>
+</header>
+
+<!-- CATEGORY MENU -->
+<div class="menu">
+  <span>Makeup</span>
+  <span>Skin</span>
+  <span>Hair</span>
+  <span>Appliances</span>
+  <span>Men</span>
+  <span>Fragrance</span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Flat 50% OFF</h1>
+    <p>On Top Beauty Brands</p>
+    <button>Shop Now</button>
+  </div>
+</section>
+
+<!-- BRAND STRIP -->
+<section class="brands">
+  <img src="https://via.placeholder.com/100x50">
+  <img src="https://via.placeholder.com/100x50">
+  <img src="https://via.placeholder.com/100x50">
+  <img src="https://via.placeholder.com/100x50">
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <h2>Best Sellers</h2>
+
+  <div class="product-grid">
+
+    <div class="card">
+      <span class="badge">BESTSELLER</span>
+      <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad">
+      <h3>Matte Lipstick</h3>
+      <p>⭐ 4.5 (1.2k)</p>
+      <p class="price">₹299 <span>₹599</span></p>
+    </div>
+
+    <div class="card">
+      <span class="badge">NEW</span>
+      <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb">
+      <h3>Vitamin C Serum</h3>
+      <p>⭐ 4.7</p>
+      <p class="price">₹499 <span>₹999</span></p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9">
+      <h3>Hair Shampoo</h3>
+      <p>⭐ 4.3</p>
+      <p class="price">₹399 <span>₹799</span></p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
+      <h3>Perfume</h3>
+      <p>⭐ 4.6</p>
+      <p class="price">₹699 <span>₹1299</span></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-cols">
+    <div>
+      <h4>About</h4>
+      <p>About Us</p>
+      <p>Careers</p>
+    </div>
+
+    <div>
+      <h4>Help</h4>
+      <p>Track Order</p>
+      <p>Returns</p>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email Support</p>
+    </div>
+  </div>
+
+  <p class="copy">© 2026 Purplle Clone</p>
+</footer>
+
+</body>
+</html>
