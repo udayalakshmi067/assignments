@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+.fb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.fb-header h1 {
+  color: #1877f2;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 40px 0;
+}
+.fb-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.fb-login-card {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  min-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.fb-login-card input,
+.fb-login-card button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fb-login-card input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+.fb-login-card button {
+  width: 100%;
+  padding: 14px;
+  background: #1877f2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+   box-sizing: border-box; /* include padding/border in width */
+  width: 100%;
+}
+
+.fb-login-card a {
+  font-size: 14px;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.create-account {
+  width: 60%;
+  margin-top: 10px;
+  background: #42b72a;
+}
+
+
+.fb-footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 12px;
+  color: #65676b;
+  line-height: 1.5;
+}
