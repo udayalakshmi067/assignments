@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meesho Clone</title>
+  <link rel="stylesheet" href="projectstyle.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="nav">
+  <h2 class="logo">meesho</h2>
+  <input placeholder="Try Saree, Kurti or Search by Product Code">
+  <div class="nav-links">
+    <span>Supplier</span>
+    <span>Profile</span>
+    <span>Cart 🛒</span>
+  </div>
+</header>
+
+<!-- CATEGORY BAR -->
+<div class="categories">
+  <span>Women Ethnic</span>
+  <span>Men</span>
+  <span>Kids</span>
+  <span>Home & Kitchen</span>
+  <span>Beauty</span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Lowest Prices Best Quality</h1>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2">
+    <p>Stylish Saree</p>
+    <p class="price">₹499</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+    <p>Casual Shirt</p>
+    <p class="price">₹299</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+    <p>Kurti Set</p>
+    <p class="price">₹399</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+    <p>Kids Dress</p>
+    <p class="price">₹249</p>
+  </div>
+
+</section>
+
+</body>
+</html>
