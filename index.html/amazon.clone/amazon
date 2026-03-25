@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="projectstyle.css">
+</head>
+<body>
+
+<!-- TOP NAV STRIP -->
+<div class="top-strip">
+  <p>Deliver to India | Free Shipping on orders above ₹499</p>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">amazon</div>
+  
+  <div class="search-bar">
+    <input type="text" placeholder="Search Amazon.in">
+    <button>🔍</button>
+  </div>
+  
+  <div class="nav-links">
+    <div class="account">Hello, Sign in<br><b>Account & Lists</b></div>
+    <div class="orders">Returns<br><b>& Orders</b></div>
+    <div class="cart">🛒 Cart</div>
+  </div>
+</header>
+
+<!-- CATEGORY BAR -->
+<nav class="categories">
+  <span>All</span>
+  <span>Today's Deals</span>
+  <span>Customer Service</span>
+  <span>Electronics</span>
+  <span>Fashion</span>
+  <span>Home</span>
+  <span>Beauty</span>
+</nav>
+
+<!-- HERO BANNER -->
+<section class="hero">
+  <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da" alt="Amazon Hero">
+</section>
+
+<!-- PRODUCT SECTIONS -->
+<section class="product-section">
+  <h2>Best Sellers in Electronics</h2>
+  <div class="product-row">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Product 1">
+      <p>Smartphone</p>
+      <p class="price">₹12,999</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53" alt="Product 2">
+      <p>Wireless Headphones</p>
+      <p class="price">₹2,499</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Product 3">
+      <p>Smart Watch</p>
+      <p class="price">₹3,999</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Product 4">
+      <p>Camera</p>
+      <p class="price">₹18,999</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <div>
+      <h4>Get to Know Us</h4>
+      <p>About Us</p>
+      <p>Careers</p>
+    </div>
+    <div>
+      <h4>Connect with Us</h4>
+      <p>Facebook</p>
+      <p>Twitter</p>
+    </div>
+    <div>
+      <h4>Make Money with Us</h4>
+      <p>Sell on Amazon</p>
+      <p>Affiliate Program</p>
+    </div>
+  </div>
+  <p class="copy">© 2026 Amazon Clone</p>
+</footer>
+
+</body>
+</html>
