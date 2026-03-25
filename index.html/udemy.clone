@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Udemy Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="left">
+    <h2 class="logo">Udemy</h2>
+    <span class="categories">Categories</span>
+  </div>
+
+  <input class="search" placeholder="Search for anything">
+
+  <div class="right">
+    <a href="#">Udemy Business</a>
+    <a href="#">Teach on Udemy</a>
+    <a href="#">Login</a>
+    <button class="signup">Sign up</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-box">
+    <h1>Learning that gets you</h1>
+    <p>Skills for your present (and your future). Get started.</p>
+    <input placeholder="What do you want to learn?">
+  </div>
+</section>
+
+<!-- CATEGORY TABS -->
+<section class="tabs">
+  <span class="active">Development</span>
+  <span>Business</span>
+  <span>Finance & Accounting</span>
+  <span>IT & Software</span>
+  <span>Design</span>
+</section>
+
+<!-- COURSE ROW -->
+<section class="course-section">
+  <h2>Recommended for you</h2>
+
+  <div class="course-row">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+      <h3>Web Development Bootcamp</h3>
+      <p class="author">John Doe</p>
+      <p class="rating">4.5 ⭐⭐⭐⭐☆ (10,234)</p>
+      <p class="price">₹499 <span>₹1999</span></p>
+      <span class="badge">Bestseller</span>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+      <h3>Python for Beginners</h3>
+      <p class="author">Jane Smith</p>
+      <p class="rating">4.7 ⭐⭐⭐⭐⭐ (8,211)</p>
+      <p class="price">₹399 <span>₹1499</span></p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+      <h3>Data Science Masterclass</h3>
+      <p class="author">Mike Ross</p>
+      <p class="rating">4.6 ⭐⭐⭐⭐☆</p>
+      <p class="price">₹599 <span>₹2499</span></p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f">
+      <h3>UI/UX Design Course</h3>
+      <p class="author">Alex Johnson</p>
+      <p class="rating">4.4 ⭐⭐⭐⭐☆</p>
+      <p class="price">₹449 <span>₹1799</span></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Udemy Clone</p>
+</footer>
+
+</body>
+</html>
